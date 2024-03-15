@@ -1,0 +1,120 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <h2>List Users</h2>
+            <a href="UserServlet?action=AddOrEdit" class="btn btn-primary">Add Users</a>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>UserName</th>
+                        <th>Password</th>
+                        <th>FullName</th>
+                        <th>Age</th>
+                        <th>Birthday</th>
+                        <th>Gender</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>12</td>
+                        <td>12</td>
+                        <td>12</td>
+                        <td>12</td>
+                        <td>2020-06-24</td>
+                        <td>Nu</td>
+                        <td><a class="btn btn-primary btn-sm" href="UserServlet?action=AddOrEdit&username=12">Edit</a> |
+                            <a class="btn btn-danger btn-sm" href="UserServlet?action=Delete&username=12">Del</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>ad</td>
+                        <td>12</td>
+                        <td>nguyen ad</td>
+                        <td>22</td>
+                        <td>0018-06-04</td>
+                        <td>Nam</td>
+                        <td><a class="btn btn-primary btn-sm" href="UserServlet?action=AddOrEdit&username=ad">Edit</a> |
+                            <a class="btn btn-danger btn-sm" href="UserServlet?action=Delete&username=ad">Del</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>admin</td>
+                        <td>123</td>
+                        <td>111</td>
+                        <td>11</td>
+                        <td>2020-02-24</td>
+                        <td>Nam</td>
+                        <td><a class="btn btn-primary btn-sm" href="UserServlet?action=AddOrEdit&username=admin">Edit</a> |
+                            <a class="btn btn-danger btn-sm" href="UserServlet?action=Delete&username=admin">Del</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>haubeo</td>
+                        <td>123</td>
+                        <td>Nguyen Van Hau</td>
+                        <td>22</td>
+                        <td>2020-02-26</td>
+                        <td>Nam</td>
+                        <td><a class="btn btn-primary btn-sm" href="UserServlet?action=AddOrEdit&username=haubeo">Edit</a> |
+                            <a class="btn btn-danger btn-sm" href="UserServlet?action=Delete&username=haubeo">Del</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Namnv</td>
+                        <td>123</td>
+                        <td>Nguyen Van Nam</td>
+                        <td>33</td>
+                        <td>2012-12-12</td>
+                        <td>Nam</td>
+                        <td><a class="btn btn-primary btn-sm" href="UserServlet?action=AddOrEdit&username=Namnv">Edit</a> |
+                            <a class="btn btn-danger btn-sm" href="UserServlet?action=Delete&username=Namnv">Del</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>TeoNV</td>
+                        <td>33333</td>
+                        <td>Nguyen Van Teo</td>
+                        <td>33</td>
+                        <td>2020-02-24</td>
+                        <td>Nam</td>
+                        <td><a class="btn btn-primary btn-sm" href="UserServlet?action=AddOrEdit&username=TeoNV">Edit</a> |
+                            <a class="btn btn-danger btn-sm" href="UserServlet?action=Delete&username=TeoNV">Del</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>trang</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>22</td>
+                        <td>2020-02-24</td>
+                        <td>Nu</td>
+                        <td><a class="btn btn-primary btn-sm" href="UserServlet?action=AddOrEdit&username=trang">Edit</a> |
+                            <a class="btn btn-danger btn-sm" href="UserServlet?action=Delete&username=trang">Del</a></td>
+                    </tr>
+                    
+
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
+
